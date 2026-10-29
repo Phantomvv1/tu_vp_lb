@@ -1,9 +1,6 @@
 n = input("Number: ")
 
-numbers = list(n)
-numbers.sort()
-
-tuple1 = tuple(numbers)
+tuple1 = tuple(n)
 tuple2 = tuple1[::-1]
 
 print("Numbers in ascending order:", tuple1)
